@@ -1,0 +1,6 @@
+{
+ "$schema": "https://jsr.io/schema/config-file.v1.json",
+ "name": "@cupglassdev/duckncup",
+ "publish": {"exclude": [".vscode", "package.json", "misc"], "include": ["tsconfig.json", "README.md"]},
+ "exports":"./mod.ts"
+}
