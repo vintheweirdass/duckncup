@@ -1,6 +1,10 @@
 {
  "$schema": "https://jsr.io/schema/config-file.v1.json",
  "name": "@cupglassdev/duckncup",
- "publish": {"exclude": [".vscode", "package.json", "misc"], "include": ["tsconfig.json", "README.md"]},
- "exports":"./mod.ts"
+ "publish": {"exclude": [".vscode"], "include": ["tsconfig.json", "README.md", "presets.ts", "mapPresets"]},
+ "exports":{
+  ".":"./mod.ts",
+  "./presets":"./presets.ts"
+ },
+ "version": "1.0.0-prelaunch"
 }

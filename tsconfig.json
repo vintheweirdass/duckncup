@@ -1,6 +1,6 @@
 {
     "include": [
-        "**/*.ts"
+        "*.ts"
     ],
     "compilerOptions": {
     "lib":["ES6", "DOM"],
