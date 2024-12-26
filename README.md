@@ -1,1 +1,1 @@
-Info is on the way, docs may not ready
+this project is abandoned, im focusing on my website
